@@ -4,9 +4,11 @@ A responsive Flutter application that generates creative, unique-sounding names 
 
 ---
 
-## 📱 App Screenshot
+## 📱 App Screenshots
 
-![Namer App Screenshot](assets/screenshot.png)
+| Home Screen | Favorites Screen |
+| :---: | :---: |
+| ![Home Screen](assets/home_screen_framed.png) | ![Favorites Screen](assets/favorites_screen_framed.png) |
 
 ---
 
