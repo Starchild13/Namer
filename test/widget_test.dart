@@ -6,8 +6,11 @@ void main() {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const Namer());
 
-    // Verify that random idea text is present.
-    expect(find.text('A random wonderful idea:'), findsOneWidget);
+    // Verify that navigation and buttons are present.
+    expect(find.text('Home'), findsWidgets);
+    expect(find.text('Favorites'), findsWidgets);
     expect(find.text('Next'), findsOneWidget);
+    expect(find.text('Like'), findsOneWidget);
+    expect(find.text('Font'), findsOneWidget);
   });
 }

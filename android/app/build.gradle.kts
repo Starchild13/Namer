@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.example.create_name"
     compileSdk = flutter.compileSdkVersion
-    buildToolsVersion = "36.0.0"
+    buildToolsVersion = "37.0.0"
     ndkVersion = "27.0.12077973"
 
     compileOptions {
@@ -29,10 +29,9 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+
         ndk {
-            abiFilters.clear()
             abiFilters.addAll(listOf("armeabi-v7a", "arm64-v8a", "x86_64"))
-            debugSymbolLevel = "none"
         }
     }
 
