@@ -1,6 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Internet permission required for loading Google Fonts and network capabilities -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
-        android:label="create_name"
+        android:label="Namer"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
